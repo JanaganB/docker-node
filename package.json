@@ -7,7 +7,8 @@
     "develop": "nodemon server/index.js",
     "start": "node server/index.js",
     "lint:js": "eslint '**/*.js'",
-    "lint": "npm run lint:js",
+    "lint:md": "remark .",
+    "lint": "npm run lint:js && npm run lint:md",
     "test": "npm run lint && jest && codecov"
   },
   "repository": {
@@ -32,6 +33,9 @@
     "eslint-plugin-import": "^2.14.0",
     "jest": "^23.6.0",
     "nodemon": "^1.18.6",
+    "remark-cli": "^6.0.0",
+    "remark-lint": "^6.0.3",
+    "remark-preset-lint-recommended": "^3.0.2",
     "supertest": "^3.3.0"
   },
   "jest": {

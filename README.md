@@ -12,7 +12,7 @@ Docker Container for Node.js development
 
 ## Requirements
 
-* [Docker](https://www.docker.com/)
+-   [Docker](https://www.docker.com/)
 
 ## Usage
 
