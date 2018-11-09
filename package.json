@@ -33,5 +33,9 @@
     "jest": "^23.6.0",
     "nodemon": "^1.18.3",
     "supertest": "^3.3.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
