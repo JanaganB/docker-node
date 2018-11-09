@@ -1,8 +1,3 @@
-const express = require('express');
-const config = require('./config');
+const app = require('./app');
 
-const app = express();
-
-app.get('/', (request, response) => response.send('Hello, world!'));
-
-app.listen(config.port);
+app.listen(app.get('port'));
