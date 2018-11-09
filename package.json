@@ -8,7 +8,7 @@
     "start": "node server/index.js",
     "lint:js": "eslint '**/*.js'",
     "lint": "npm run lint:js",
-    "test": "npm run lint && jest"
+    "test": "npm run lint && jest && codecov"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
+    "codecov": "^3.1.0",
     "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
