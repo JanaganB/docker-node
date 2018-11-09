@@ -2,7 +2,8 @@
   "name": "docker-node",
   "version": "1.0.0",
   "description": "Docker Container for Node.js development",
-  "main": "index.js",
+  "main": "server/index.js",
+  "private": true,
   "scripts": {
     "develop": "nodemon server/index.js",
     "start": "node server/index.js",
