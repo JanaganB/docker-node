@@ -25,5 +25,6 @@ docker-compose up
 ### Production
 
 ```sh
-docker -p PORT:3000 IMAGE_NAME .
+docker build -t IMAGE_NAME .
+docker run -p PORT:3000 IMAGE_NAME .
 ```
