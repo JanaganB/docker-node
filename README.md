@@ -14,6 +14,10 @@ Docker Container for Node.js development
 
 -   [Docker](https://www.docker.com/)
 
+## Installation
+
+-   Install `node_modules` via `npm install`
+
 ## Usage
 
 ### Development
