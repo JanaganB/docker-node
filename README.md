@@ -18,6 +18,7 @@ Docker Container for Node.js development
 
 ## Requirements
 
+-   [Node.js](https://nodejs.org/)
 -   [Docker](https://www.docker.com/)
 
 ## Installation
