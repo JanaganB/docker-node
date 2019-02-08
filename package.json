@@ -10,7 +10,8 @@
     "lint:js": "eslint '**/*.js'",
     "lint:md": "remark .",
     "lint": "npm run lint:js && npm run lint:md",
-    "test": "npm run lint && jest && codecov"
+    "test": "npm run lint && jest",
+    "test:ci": "npm test && codecov"
   },
   "repository": {
     "type": "git",
