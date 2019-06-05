@@ -1,4 +1,4 @@
-FROM node:12.3.1
+FROM node:12.4.0
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install --production
